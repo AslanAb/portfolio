@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .customBtn {
+    @apply mt-1 rounded-lg border-[3px] border-deep-sky-blue px-4 py-2 font-semibold text-deep-sky-blue hover:bg-deep-sky-blue hover:text-prussian-blue-dark md:text-2xl;
+  }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 13px;
+  background: transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0db9fd;
+  border-radius: 10px;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  background-clip: padding-box;
+}
