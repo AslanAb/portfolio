@@ -63,7 +63,7 @@ const skills = [
         v-for="skill in skills"
         :key="skill.id"
       >
-        <div class="sm:h-32 2xl:h-36">
+        <div class="h-auto sm:h-32 2xl:h-36">
           <img :src="skill.ImgUrl" alt="" class="m-auto h-full" />
         </div>
         <p class="my-2 text-center font-medium lg:text-2xl">{{ skill.name }}</p>
