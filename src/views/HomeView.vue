@@ -20,6 +20,7 @@ const typewriterData = ['Frontend Developer']
         href="https://sweetcv.com/rwofkfmkhuiwn"
         download="Aslan Abdygaliyev - CV"
         class="customBtn mb-6"
+        target="_blank"
         >Download CV</a
       >
     </div>
