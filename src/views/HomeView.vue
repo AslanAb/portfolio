@@ -17,7 +17,7 @@ const typewriterData = ['Frontend Developer']
         As the saying goes, the road by walking.
       </p>
       <a
-        href="src/assets/CV/Aslan_Abdygaliyev_CV(en).pdf"
+        href="https://sweetcv.com/rwofkfmkhuiwn"
         download="Aslan Abdygaliyev - CV"
         class="customBtn mb-6"
         >Download CV</a
