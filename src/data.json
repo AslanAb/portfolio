@@ -8,7 +8,7 @@
     {
       "id": 1,
       "name": "Computer Academy 'IT STEP'",
-      "text": "Junior Frontend Developer",
+      "text": "Frontend Developer",
       "year_begin": 2022,
       "year_end": 2023
     },
@@ -31,14 +31,14 @@
     {
       "id": 1,
       "name": "Institute of World Economics and Politics",
-      "text": "Lawyer",
+      "text": "IT lawyer",
       "year_begin": 2022,
       "year_end": 2023
     },
     {
       "id": 2,
       "name": "'Samgau' Holding",
-      "text": "Lawyer",
+      "text": "IT lawyer",
       "year_begin": 2019,
       "year_end": 2022
     },
