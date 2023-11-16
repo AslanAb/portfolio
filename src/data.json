@@ -54,7 +54,7 @@
     {
       "id": 1,
       "name": "HTML",
-      "ImgUrl": "src/assets/html.png"
+      "ImgUrl": "../src/assets/html.png"
     },
     {
       "id": 2,
@@ -64,32 +64,32 @@
     {
       "id": 3,
       "name": "JavaScript",
-      "ImgUrl": "src/assets/js.png"
+      "ImgUrl": "@/assets/js.png"
     },
     {
       "id": 4,
       "name": "TypeScript",
-      "ImgUrl": "src/assets/ts.png"
+      "ImgUrl": "/assets/ts.png"
     },
     {
       "id": 5,
       "name": "Vue",
-      "ImgUrl": "src/assets/vue.png"
+      "ImgUrl": "assets/vue.png"
     },
     {
       "id": 6,
       "name": "React / React Native",
-      "ImgUrl": "src/assets/react.svg"
+      "ImgUrl": "/react.svg"
     },
     {
       "id": 7,
       "name": "Node",
-      "ImgUrl": "src/assets/node.svg"
+      "ImgUrl": "@/assets/node.svg"
     },
     {
       "id": 8,
       "name": "Tailwind",
-      "ImgUrl": "src/assets/tailwind.png"
+      "ImgUrl": "@/src/assets/tailwind.png"
     }
   ]
 }

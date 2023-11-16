@@ -38,7 +38,10 @@ const closeMenu = () => {
 <template>
   <header class="w-full">
     <nav class="flex h-full w-full items-center justify-between">
-      <router-link :to="{ name: 'Home' }" class="h-full w-[10%] max-w-[136px] min-w-[100px] pl-3 pt-2">
+      <router-link
+        :to="{ name: 'Home' }"
+        class="h-full w-[10%] min-w-[100px] max-w-[136px] pl-3 pt-2"
+      >
         <div class="logoImg h-full w-full bg-cover bg-center"></div>
       </router-link>
       <div v-if="windowWidth <= 768" class="relative flex h-full items-center">
@@ -63,7 +66,7 @@ const closeMenu = () => {
             <div
               class="flex h-[40vh] flex-col items-end justify-around pr-5 pt-12 text-2xl font-medium"
             >
-              <RouterLinks :closeMenu="closeMenu"/>
+              <RouterLinks :closeMenu="closeMenu" />
             </div>
           </div>
         </Transition>

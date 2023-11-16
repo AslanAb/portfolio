@@ -1,7 +1,55 @@
 <script setup>
-import data from '@/data.json'
+import htmlImg from '@/assets/html.png'
+import cssImg from '@/assets/css.png'
+import jsImg from '@/assets/js.png'
+import tsImg from '@/assets/ts.png'
+import vueImg from '@/assets/vue.png'
+import reactImg from '@/assets/react.svg'
+import nodeImg from '@/assets/node.svg'
+import tailwindImg from '@/assets/tailwind.png'
 
-const skills = data.skills
+const skills = [
+  {
+    id: 1,
+    name: 'HTML',
+    ImgUrl: htmlImg
+  },
+  {
+    id: 2,
+    name: 'CSS',
+    ImgUrl: cssImg
+  },
+  {
+    id: 3,
+    name: 'JavaScript',
+    ImgUrl: jsImg
+  },
+  {
+    id: 4,
+    name: 'TypeScript',
+    ImgUrl: tsImg
+  },
+  {
+    id: 5,
+    name: 'Vue',
+    ImgUrl: vueImg
+  },
+  {
+    id: 6,
+    name: 'React / React Native',
+    ImgUrl: reactImg
+  },
+  {
+    id: 7,
+    name: 'Node',
+    ImgUrl: nodeImg
+  },
+  {
+    id: 8,
+    name: 'Tailwind',
+    ImgUrl: tailwindImg
+  }
+]
 </script>
 
 <template>
