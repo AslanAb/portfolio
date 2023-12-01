@@ -4,7 +4,7 @@
 
 @layer components {
   .customBtn {
-    @apply mt-1 rounded-lg border-[3px] border-deep-sky-blue px-4 py-2 font-semibold text-deep-sky-blue hover:bg-deep-sky-blue hover:text-prussian-blue-dark md:text-2xl;
+    @apply mt-1 rounded-lg border-[3px] border-deep-sky-blue px-4 py-2 font-semibold text-deep-sky-blue hover:bg-deep-sky-blue hover:text-prussian-blue-dark md:text-2xl text-center;
   }
 }
 /* width */

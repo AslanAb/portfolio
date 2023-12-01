@@ -1,53 +1,44 @@
 <script setup>
-import htmlImg from '@/assets/html.png'
-import cssImg from '@/assets/css.png'
-import jsImg from '@/assets/js.png'
-import tsImg from '@/assets/ts.png'
-import vueImg from '@/assets/vue.png'
-import reactImg from '@/assets/react.svg'
-import nodeImg from '@/assets/node.svg'
-import tailwindImg from '@/assets/tailwind.png'
-
 const skills = [
   {
     id: 1,
     name: 'HTML',
-    ImgUrl: htmlImg
+    ImgUrl: 'skillIcons/html.png'
   },
   {
     id: 2,
     name: 'CSS',
-    ImgUrl: cssImg
+    ImgUrl: 'skillIcons/css.png'
   },
   {
     id: 3,
     name: 'JavaScript',
-    ImgUrl: jsImg
+    ImgUrl: 'skillIcons/js.png'
   },
   {
     id: 4,
     name: 'TypeScript',
-    ImgUrl: tsImg
-  },
-  {
-    id: 5,
-    name: 'Vue',
-    ImgUrl: vueImg
-  },
-  {
-    id: 6,
-    name: 'React / React Native',
-    ImgUrl: reactImg
+    ImgUrl: 'skillIcons/ts.png'
   },
   {
     id: 7,
     name: 'Node',
-    ImgUrl: nodeImg
+    ImgUrl: 'skillIcons/node.png'
   },
   {
     id: 8,
     name: 'Tailwind',
-    ImgUrl: tailwindImg
+    ImgUrl: 'skillIcons/tailwind.png'
+  },
+  {
+    id: 5,
+    name: 'Vue',
+    ImgUrl: 'skillIcons/vue.png'
+  },
+  {
+    id: 6,
+    name: 'React / React Native',
+    ImgUrl: 'skillIcons/react.png'
   }
 ]
 </script>
@@ -55,7 +46,8 @@ const skills = [
 <template>
   <main>
     <h1 class="mx-auto my-3 w-fit text-3xl font-extrabold tracking-wider lg:my-4 lg:text-4xl">
-      My <span class="text-deep-sky-blue hover:brightness-200">Skills</span>
+      {{ $t('skillsView.my') }}
+      <span class="text-deep-sky-blue hover:brightness-200">{{ $t('skillsView.skills') }}</span>
     </h1>
     <div class="my-8 grid grid-cols-3 gap-4 px-8 sm:grid-cols-4 lg:mt-14">
       <div

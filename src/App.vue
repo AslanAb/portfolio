@@ -18,7 +18,7 @@ watch(
 </script>
 
 <template>
-  <div class="flex min-h-screen w-screen flex-col font-montserrat text-white">
+  <div class="flex min-h-screen w-full flex-col font-montserrat text-white">
     <HeaderComponent class="h-16 w-full md:px-[10%]" />
     <router-view class="w-full flex-1 md:px-[10%]"></router-view>
     <FooterComponent class="w-full md:px-[10%]" />

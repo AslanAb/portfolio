@@ -1,0 +1,109 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "education": "Education",
+      "skills": "Skills",
+      "contacts": "Contacts"
+    }
+  },
+  "footer": {
+    "copyright": "by Aslan Abdygaliyev"
+  },
+  "homeView": {
+    "iAmAslan": "Hi, I'm Aslan",
+    "frontendDeveloper": "Frontend Developer",
+    "myPath": {
+      "path": "On the path to becoming a senior web developer.",
+      "road": "As the saying goes, the road by walking.."
+    },
+    "openCV": "Open CV"
+  },
+  "aboutView": {
+    "about": "About",
+    "me": "me",
+    "frontendDeveloper": "Frontend Developer!",
+    "text": {
+      "1": "I have successfully graduated from the 'IT STEP' Computer Academy with a focus on Front-end development.",
+      "2": "Throughout my studies, I gained expertise in HTML, CSS, JS, and explored frameworks/libraries such as Node (back-end), Vue, React, and Angular.",
+      "3": "I came to the IT field not by chance, having worked as a lawyer in a large IT company, surrounding myself with developer friends, closely interacting with programmers when developing contracts with business partners, reading and viewing relevant information, I entered the IT STEP Academy with great desire.",
+      "4": "During my learning journey, I took the initiative to independently seek information and solve complex problems. While I have made significant progress, I recognize the value of having an experienced mentor to accelerate my path towards becoming a senior web developer.",
+      "5": "I am committed to continuous learning and growth in the ever-evolving field of web development."
+    },
+    "button": {
+      "readMore": "Read More",
+      "closeText": "Close"
+    }
+  },
+  "educationView": {
+    "my": "My",
+    "journey": "Journey",
+    "educationTitle": "Education",
+    "experienceTitle": "Experience",
+    "education": [
+      {
+        "id": 1,
+        "name": "Computer Academy 'IT STEP'",
+        "text": "Frontend Developer",
+        "year_begin": 2022,
+        "year_end": 2023
+      },
+      {
+        "id": 2,
+        "name": "KAZGUU University",
+        "text": "Master's Degree - International Law",
+        "year_begin": 2019,
+        "year_end": 2021
+      },
+      {
+        "id": 3,
+        "name": "KAZGUU University",
+        "text": "Bachelor - International Law",
+        "year_begin": 2015,
+        "year_end": 2019
+      }
+    ],
+    "experience": [
+      {
+        "id": 1,
+        "name": "Institute of World Economics and Politics",
+        "text": "IT lawyer",
+        "year_begin": 2022,
+        "year_end": 2023
+      },
+      {
+        "id": 2,
+        "name": "'Samgau' Holding",
+        "text": "IT lawyer",
+        "year_begin": 2019,
+        "year_end": 2022
+      },
+      {
+        "id": 3,
+        "name": "School of Education 'Pythagoras'",
+        "text": "Mathematic teacher",
+        "year_begin": 2018,
+        "year_end": 2019
+      }
+    ]
+  },
+  "skillsView": {
+    "my": "My",
+    "skills": "Skills"
+  },
+  "contactsView": {
+    "contact": "Contact",
+    "details": "Details",
+    "fullName": "Full Name",
+    "address": "Address",
+    "mobileNumber": "Mobile Number",
+    "emailAddress": "Email Address",
+    "name": "Aslan",
+    "surname": "Abdygaliyev",
+    "myAddress": "Kazakhstan, Astana",
+    "phone_number": "+7 (777) 515 82 06",
+    "emailFirstPart": "xabda001",
+    "emailSecondPart": "gmail.com"
+  }
+}

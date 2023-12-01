@@ -2,7 +2,7 @@
 
 <template>
   <footer class="flex w-full flex-col-reverse px-3 pb-2 sm:flex-row sm:justify-between">
-    <p>Copyright &copy; 2023 by Aslan Abdygaliyev</p>
+    <p>&copy; 2023 {{ $t('footer.copyright') }}</p>
     <div class="mb-2 flex h-8">
       <a
         href="https://vk.com/abdirhen"
