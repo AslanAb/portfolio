@@ -11,6 +11,16 @@ const hrefForCv = () => {
     return 'https://sweetcv.com/rwofkfmkhuiwn'
   }
 }
+// const windowWidth = ref(window.innerWidth)
+// const handleResize = () => {
+//   windowWidth.value = window.innerWidth
+// }
+// onMounted(() => {
+//   window.addEventListener('resize', handleResize)
+// })
+// onUnmounted(() => {
+//   window.removeEventListener('resize', handleResize)
+// })
 </script>
 
 <template>

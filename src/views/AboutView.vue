@@ -1,17 +1,6 @@
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref } from 'vue'
 const isShow = ref(false)
-
-const windowWidth = ref(window.innerWidth)
-const handleResize = () => {
-  windowWidth.value = window.innerWidth
-}
-onMounted(() => {
-  window.addEventListener('resize', handleResize)
-})
-onUnmounted(() => {
-  window.removeEventListener('resize', handleResize)
-})
 </script>
 
 <template>
@@ -24,8 +13,7 @@ onUnmounted(() => {
       <LottieAnimation :animationData="webDeveloper" :width="`100%`"></LottieAnimation>
     </div> -->
     <div
-      class="min-h-[15rem] min-w-[15rem] overflow-hidden rounded-full border-[3px] border-deep-sky-blue bg-prussian-blue-dark md:min-h-[20rem] md:min-w-[20rem]"
-      :class="windowWidth <= 767 ? 'bgMyImg200' : 'bgMyImg500'"
+      class="bgMyImg500 min-h-[15rem] min-w-[15rem] overflow-hidden rounded-full border-[3px] border-deep-sky-blue bg-prussian-blue-dark md:min-h-[20rem] md:min-w-[20rem]"
     ></div>
     <h2 class="my-4 text-center text-2xl font-bold text-deep-sky-blue hover:brightness-200">
       {{ $t('aboutView.frontendDeveloper') }}
@@ -54,11 +42,6 @@ onUnmounted(() => {
 <style scoped>
 .bgMyImg500 {
   background-image: url('@/assets/myPhoto_500.png');
-  background-size: cover;
-  background-position: center;
-}
-.bgMyImg200 {
-  background-image: url('@/assets/myPhoto_250.png');
   background-size: cover;
   background-position: center;
 }
