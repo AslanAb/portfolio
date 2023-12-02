@@ -20,9 +20,23 @@ watch(
 <template>
   <div class="flex min-h-screen w-full flex-col font-montserrat text-white">
     <HeaderComponent class="h-16 w-full md:px-[10%]" />
-    <router-view class="w-full flex-1 md:px-[10%]"></router-view>
+    <router-view class="w-full flex-1 md:px-[10%]" v-slot="{ Component }">
+      <transition name="fade" mode="out-in">
+        <component :is="Component" />
+      </transition>
+    </router-view>
     <FooterComponent class="w-full md:px-[10%]" />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.15s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>

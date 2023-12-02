@@ -1,5 +1,10 @@
 <script setup>
 import working_man from '@/assets/working_man.json'
+import { onMounted, ref } from 'vue'
+const lottieShow = ref(false)
+onMounted(() => {
+  lottieShow.value = true
+})
 </script>
 
 <template>
@@ -42,6 +47,7 @@ import working_man from '@/assets/working_man.json'
           :animationData="working_man"
           :width="`100%`"
           :loop="false"
+          v-if="lottieShow"
         ></LottieAnimation>
       </div>
     </div>
