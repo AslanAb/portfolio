@@ -2,7 +2,7 @@
 import Typewriter from '@/components/TypeWriter.vue'
 import webDeveloper from '@/assets/web-developer.json'
 import { useI18n } from 'vue-i18n'
-import { onMounted, ref } from 'vue'
+// import { onMounted, ref } from 'vue'
 const hrefForCv = () => {
   const i18n = useI18n()
   if (i18n.locale.value === 'ru') {
@@ -11,10 +11,6 @@ const hrefForCv = () => {
     return 'https://sweetcv.com/rwofkfmkhuiwn'
   }
 }
-const lottieShow = ref(false)
-onMounted(() => {
-  lottieShow.value = true
-})
 // const windowWidth = ref(window.innerWidth)
 // const handleResize = () => {
 //   windowWidth.value = window.innerWidth
@@ -61,7 +57,7 @@ onMounted(() => {
       :class="windowWidth <= 767 ? 'bgMyImg200' : 'bgMyImg500'"
     ></div> -->
     <div class="mb-4 w-[60%] md:max-lg:w-[50%] lg:flex-1">
-      <LottieAnimation :animationData="webDeveloper" v-if="lottieShow"></LottieAnimation>
+      <LottieAnimation :animationData="webDeveloper"></LottieAnimation>
     </div>
   </main>
 </template>
